@@ -40,10 +40,10 @@ Está correto (s/N)? s
 GnuPG precisa construir uma ID de usuário para identificar sua chave.
 
 Nome completo: Rafael Ribeiro
-Endereço de correio eletrônico: f.rafaelribeiro@gmail.com
+Endereço de correio eletrônico: fxxxxxxxxo@**.com
 Comentário: 
 Você selecionou este identificador de usuário:
-    "Rafael Ribeiro <f.rafaelribeiro@gmail.com>"
+    "Rafael Ribeiro <fxxxxxxxxo@**.com>"
 
 Muda (N)ome, (C)omentário, (E)ndereço ou (O)k/(S)air? O
 Precisamos gerar muitos bytes aleatórios. É uma boa idéia realizar outra
@@ -61,7 +61,7 @@ chaves pública e privada criadas e assinadas.
 
 pub   rsa4096 2022-12-02 [SC] [expira: 2027-12-01]
       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-uid                      Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+uid                      Rafael Ribeiro <fxxxxxxxxo@**.com>
 sub   rsa4096 2022-12-02 [E] [expira: 2027-12-01]
 
 ```
@@ -75,7 +75,7 @@ Verificando a chave gerada:
 -------------------------------
 sec   rsa4096/XXXXXXXXXXXXXXX 2022-12-02 [SC] [expira: 2027-12-01]
       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-uid                 [final] Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+uid                 [final] Rafael Ribeiro <fxxxxxxxxo@**.com>
 ssb   rsa4096/XXXXXXXXXXXXXXX 2022-12-02 [E] [expira: 2027-12-01]
 ```
 Capturando a chave publica através do Id
@@ -188,8 +188,8 @@ Como verificar se o commit esta assinado
 commit 5f5ad55fe7a12e9a22fc2f870329416882c0ccc5 (HEAD -> master)
 gpg: Assinatura feita qui 01 dez 2022 22:48:09 -03
 gpg:                usando RSA chave XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-gpg: Assinatura correta de "Rafael Ribeiro <f.rafaelribeiro@gmail.com>" [final]
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+gpg: Assinatura correta de "Rafael Ribeiro <fxxxxxxxxo@**.com>" [final]
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Thu Dec 1 22:48:09 2022 -0300
 
     First commit
@@ -219,7 +219,7 @@ Listando nossa chave
 -------------------------------
 sec   rsa4096/21740521A5D4EED9 2022-12-02 [SC] [expira: 2027-12-01]
       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-uid                 [final] Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+uid                 [final] Rafael Ribeiro <fxxxxxxxxo@**.com>
 ssb   rsa4096/XXXXXXXXXXXXXXX 2022-12-02 [E] [expira: 2027-12-01]
 ```
 Caso a variável GPG_TTY não esteja exportada:  
@@ -247,14 +247,14 @@ sec  rsa4096/XXXXXXXXXXXXXXX
      confiança: final         validade: final
 ssb  rsa4096/XXXXXXXXXXXXXXX
      criado: 2022-12-02  expira: 2027-12-01  uso: E   
-[final] (1). Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+[final] (1). Rafael Ribeiro <fxxxxxxxxo@**.com>
 
 gpg> adduid 
 Nome completo: Rafael Ribeiro
-Endereço de correio eletrônico: f.rafaelribeiro@live.com
+Endereço de correio eletrônico: fxxxxxxxxo@**.com
 Comentário: 
 Você selecionou este identificador de usuário:
-    "Rafael Ribeiro <f.rafaelribeiro@live.com>"
+    "Rafael Ribeiro <fxxxxxxxxo@**.com>"
 
 Muda (N)ome, (C)omentário, (E)ndereço ou (O)k/(S)air? O
 
@@ -263,8 +263,8 @@ sec  rsa4096/XXXXXXXXXXXXXXX
      confiança: final         validade: final
 ssb  rsa4096/XXXXXXXXXXXXXXX
      criado: 2022-12-02  expira: 2027-12-01  uso: E   
-[final] (1)  Rafael Ribeiro <f.rafaelribeiro@gmail.com>
-[ desconhecida] (2). Rafael Ribeiro <f.rafaelribeiro@live.com>
+[final] (1)  Rafael Ribeiro <fxxxxxxxxo@**.com>
+[ desconhecida] (2). Rafael Ribeiro <fxxxxxxxxo@**.com>
 
 gpg> list
 
@@ -273,8 +273,8 @@ sec  rsa4096/XXXXXXXXXXXXXXX
      confiança: final         validade: final
 ssb  rsa4096/XXXXXXXXXXXXXXX
      criado: 2022-12-02  expira: 2027-12-01  uso: E   
-[final] (1)  Rafael Ribeiro <f.rafaelribeiro@gmail.com>
-[ desconhecida] (2). Rafael Ribeiro <f.rafaelribeiro@live.com>
+[final] (1)  Rafael Ribeiro <fxxxxxxxxo@**.com>
+[ desconhecida] (2). Rafael Ribeiro <fxxxxxxxxo@**.com>
 
 gpg> uid 2
 
@@ -283,8 +283,8 @@ sec  rsa4096/XXXXXXXXXXXXXXX
      confiança: final         validade: final
 ssb  rsa4096/XXXXXXXXXXXXXXX
      criado: 2022-12-02  expira: 2027-12-01  uso: E   
-[final] (1). Rafael Ribeiro <f.rafaelribeiro@live.com>
-[desconhecida] (2)* Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+[final] (1). Rafael Ribeiro <fxxxxxxxxo@**.com>
+[desconhecida] (2)* Rafael Ribeiro <fxxxxxxxxo@**.com>
 
 gpg> trust 
 sec  rsa4096/XXXXXXXXXXXXXXX
@@ -292,8 +292,8 @@ sec  rsa4096/XXXXXXXXXXXXXXX
      confiança: final         validade: final
 ssb  rsa4096/XXXXXXXXXXXXXXX
      criado: 2022-12-02  expira: 2027-12-01  uso: E   
-[final] (1). Rafael Ribeiro <f.rafaelribeiro@live.com>
-[desconhecida] (2)* Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+[final] (1). Rafael Ribeiro <fxxxxxxxxo@**.com>
+[desconhecida] (2)* Rafael Ribeiro <fxxxxxxxxo@**.com>
 
 Por favor decida quanto você confia neste usuário para
 verificar corretamente as chaves de outros usuários
@@ -315,8 +315,8 @@ sec  rsa4096/XXXXXXXXXXXXXXX
      confiança: final         validade: final
 ssb  rsa4096/XXXXXXXXXXXXXXX
      criado: 2022-12-02  expira: 2027-12-01  uso: E   
-[final] (1). Rafael Ribeiro <f.rafaelribeiro@live.com>
-[desconhecida] (2)* Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+[final] (1). Rafael Ribeiro <fxxxxxxxxo@**.com>
+[desconhecida] (2)* Rafael Ribeiro <fxxxxxxxxo@**.com>
 
 gpg> save
 
@@ -333,7 +333,7 @@ gpg: próxima checagem de banco de dados de confiabilidade em 2027-12-01
 -------------------------------
 sec   rsa4096/XXXXXXXXXXXXXXX 2022-12-02 [SC] [expira: 2027-12-01]
       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-uid                 [final] Rafael Ribeiro <f.rafaelribeiro@live.com>
-uid                 [final] Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+uid                 [final] Rafael Ribeiro <fxxxxxxxxo@**.com>
+uid                 [final] Rafael Ribeiro <fxxxxxxxxo@**.com>
 ssb   rsa4096/XXXXXXXXXXXXXXX 2022-12-02 [E] [expira: 2027-12-01]
 ```

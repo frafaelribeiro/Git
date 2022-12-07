@@ -150,13 +150,13 @@ nada adicionado ao envio mas arquivos não registrados estão presentes (use "gi
 
 
 commit f7e500471f63ea5236fc8c5ab82b8d091f388539 (HEAD -> feature/welcome)
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:37:19 2022 -0300
 
     Add index
 
 commit 11cc85a05076e0ed82b6c7b80332413dd40d5217 (main, develop)
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:28:18 2022 -0300
 
     Initial commit
@@ -276,19 +276,19 @@ Summary of actions:
 
 
 commit 5ac0090026d5014946c2fae69c13f57e9673fcf6 (HEAD -> develop)
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:49:21 2022 -0300
 
     Add contact
 
 commit f7e500471f63ea5236fc8c5ab82b8d091f388539 (release/0.1.0)
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:37:19 2022 -0300
 
     Add index
 
 commit 11cc85a05076e0ed82b6c7b80332413dd40d5217 (main)
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:28:18 2022 -0300
 
     Initial commit
@@ -307,13 +307,13 @@ Switched to branch 'release/0.1.0'
 
 
 commit f7e500471f63ea5236fc8c5ab82b8d091f388539 (HEAD -> release/0.1.0)
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:37:19 2022 -0300
 
     Add index
 
 commit 11cc85a05076e0ed82b6c7b80332413dd40d5217 (main)
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:28:18 2022 -0300
 
     Initial commit
@@ -338,19 +338,19 @@ nothing to commit, working tree clean
 ╰─❯ git log 
 
 commit 5d7921595db56ea51358f33a9d1dac482823d961 (HEAD -> release/0.1.0)
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:57:10 2022 -0300
 
     Add !
 
 commit f7e500471f63ea5236fc8c5ab82b8d091f388539
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:37:19 2022 -0300
 
     Add index
 
 commit 11cc85a05076e0ed82b6c7b80332413dd40d5217 (main)
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:28:18 2022 -0300
 
     Initial commit
@@ -465,7 +465,7 @@ Summary of actions:
 
 commit 475573d9a93b0837f52d39f94b37e3eb260d508b (HEAD -> develop)
 Merge: 5ac0090 6715273
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 23:05:04 2022 -0300
 
     Merge tag '0.1.0' into develop
@@ -474,19 +474,19 @@ Date:   Tue Nov 29 23:05:04 2022 -0300
 
 commit 6715273a1c39b75352d757315637217b6d36f87b (tag: 0.1.0, main)
 Merge: 11cc85a 5d79215
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 23:01:31 2022 -0300
 
     Merge branch 'release/0.1.0'
 
 commit 5d7921595db56ea51358f33a9d1dac482823d961
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:57:10 2022 -0300
 
     Add !
 
 commit 5ac0090026d5014946c2fae69c13f57e9673fcf6
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:49:21 2022 -0300
 
 :
@@ -502,19 +502,19 @@ Switched to branch 'main'
 ╰─❯ git log  
 commit 6715273a1c39b75352d757315637217b6d36f87b (HEAD -> main, tag: 0.1.0)
 Merge: 11cc85a 5d79215
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 23:01:31 2022 -0300
 
     Merge branch 'release/0.1.0'
 
 commit 5d7921595db56ea51358f33a9d1dac482823d961
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:57:10 2022 -0300
 
     Add !
 
 commit f7e500471f63ea5236fc8c5ab82b8d091f388539
-Author: Rafael Ribeiro <f.rafaelribeiro@gmail.com>
+Author: Rafael Ribeiro <fxxxxxxxxo@**.com>
 Date:   Tue Nov 29 22:37:19 2022 -0300
 
     Add index
